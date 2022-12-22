@@ -69,6 +69,10 @@ td input {
 	padding: 0.3rem;
 }
 
+.placeholder {
+	color: black;
+}
+
 footer {
 	position: fixed; /* 고정 */
 	bottom: 0; /*밑에 붙여버림*/

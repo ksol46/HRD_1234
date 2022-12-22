@@ -27,7 +27,7 @@ public class MemberDAO {
 	
 	
 	//회원 등록
-	public String insert(HttpServletRequest request,HttpServletResponse response) {
+	public String insert (HttpServletRequest request,HttpServletResponse response) {
 		int custno = Integer.parseInt(request.getParameter("custno"));
 		String custname = request.getParameter("custname");
 		String phone = request.getParameter("phone");
