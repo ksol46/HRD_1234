@@ -21,7 +21,7 @@ public class MemberDAO {
 	public static Connection getConnection () throws Exception {
 		Class.forName("oracle.jdbc.OracleDriver");
 		Connection con = DriverManager
-				.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "sys1234");
+				.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "ksol46", "0406");
 		return con;
 	}
 	

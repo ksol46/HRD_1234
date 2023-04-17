@@ -17,7 +17,7 @@ list = (ArrayList<Member>) request.getAttribute("list");
 <body>
 <%@ include file="topmenu.jsp" %>
 	<section>
-		<div class="title">쇼핑몰 회원관리 프로그램</div>
+		<div class="title">회원목록조회/수정</div>
 		<div class="wrapper">
 			<table style="width: 900px">
 				<tr>
