@@ -16,7 +16,7 @@ m = (Member)request.getAttribute("member");
 <body>
 	<%@ include file="topmenu.jsp" %>
 	<section>
-		<div class="title">홈쇼핑 회원 등록</div>
+		<div class="title">홈쇼핑 회원 정보 수정</div>
 		<form name="frm" action="update">
 			<input type="hidden" id="GUBUN" value="update">
 			<div class="wrapper">
