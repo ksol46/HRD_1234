@@ -28,7 +28,7 @@ list = (ArrayList<Money>) request.getAttribute("list");
 				</tr>
 				<% for(Money m : list) {%>
 				<tr>
-					<td><%=m.getCustno() %></a></td>
+					<td><%=m.getCustno() %></td>
 					<td><%=m.getCustname()%></td>
 					<td><%=m.getGrade()%></td>
 					<td><%=m.getPrice()%></td>
