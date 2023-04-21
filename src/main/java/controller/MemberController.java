@@ -76,6 +76,7 @@ public class MemberController extends HttpServlet {
 				out.println("</script>");
 				out.flush();
 			}
+			break;
 		case "/delete":
 			int result2 = member.delete(request, response);
 			response.setContentType("text/html; charset=UTF-8");

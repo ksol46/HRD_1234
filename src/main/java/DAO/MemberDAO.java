@@ -219,7 +219,7 @@ public class MemberDAO {
 			   sql +=" where custno = ?";
 			   
 			   ps = conn.prepareStatement(sql); //쿼리문 실행시키기
-				ps.setString(1, custname);
+			   	ps.setString(1, custname);
 				ps.setString(2, phone);
 				ps.setString(3, address);
 				ps.setString(4, joindate);
